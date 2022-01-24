@@ -23,7 +23,7 @@ jobs:
         # https://github.com/marketplace/actions/aqua-security-trivy
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs,image'
+          scan-type: 'fs'
           ignore-unfixed: false
           format: 'template'
           template: '@/contrib/sarif.tpl'
