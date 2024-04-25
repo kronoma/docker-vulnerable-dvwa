@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.5
 
 LABEL maintainer "opsxcq@strm.sh"
 
